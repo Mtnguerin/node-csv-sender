@@ -25,9 +25,5 @@ async function main() {
     process.exit(1);
   }
 }
-for(let i = 0; i < 10; i++) {
-  const date = new Date();
-  date.setDate(date.getDate() - i);
-  console.log(date.getTime())
-}
+
 main();
