@@ -1,0 +1,12 @@
+{
+  "apiEndPoint": "http://localhost:3000/api/rows",
+  "indexes": {
+    "timestamp": 0,
+    "sensorId": 1,
+    "value": 2
+  },
+  "delimiter": ";",
+  "header": false,
+  "trim": true,
+  "skipEmptyLines": true
+}
